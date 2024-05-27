@@ -1,0 +1,25 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Metas de Vendas</title>
+</head>
+<body>
+    <h1>Calculadora de Metas de Vendas</h1>
+
+        <label for="valor">Valor vendido no mês:</label>
+        <input id="valorVendido" type="number" name="valor" ><br>
+        
+        <label for="metaMes">Meta do mês:</label>
+        <input  id="meta" type="number" name="metaMes" ><br>
+
+        <label for="metamin">Meta mínima do mês:</label>
+        <input id="metaMinima" type="number" name="metamin" ><br>
+
+        <button onclick="calcularMetas()">Calcular</button>
+
+    <h3 id="resultado"></h3>
+
+</body>
+<script src="scripts.js"></script>
+</html>
